@@ -1,4 +1,4 @@
-# Customer-Churn-analysis using machile learning algorithm
+# Customer-Churn-analysis using machine learning algorithm
 
 This project performed an extensive descriptive analytics to explore different factors responsible for customers churn in a telecom company.
 
