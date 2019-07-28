@@ -18,7 +18,7 @@ the underlying hazard. CoxPH analyses the covariates (features) of a dataset wit
 It describes how each feature proportionally increases risk over the baseline survival rate for a cohort. 
 The expectation is that, churn is relatively low. Kaplan–Meier plot suggests that, the company retained almost 80-90% of their customers. 
 But there is steady decline and after over 70 months, the company is able to retain almost 60% of their customers. 
-This input is quite useful for the telecom company to undertand the trend and business forecast.
+This input is quite useful for the telecom company to understand the trend and business forecast.
 
 To examine the effects of different variables, the Cox Proportional Hazards Model is used.
 
