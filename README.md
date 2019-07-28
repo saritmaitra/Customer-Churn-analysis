@@ -24,16 +24,7 @@ To examine the effects of different variables, the Cox Proportional Hazards Mode
 
 # CoxPH Model
 
-Cox model is fitting the coefficients of the Hazard function using partial likelihood method. 
-The advantage of Cox Proportional Hazards regression is that the survival models can be fitted without the distribution assumption.
-
-The time to event for a customer in the dataset is very important for the survival curves at the aggregate level; 
-however, in real life situations along with the event data the covariates (features) of that individual will be pesent. Therefore, it is very important to know about the impact of covariates on the survival curve. This would help in predicting the survival probability of a customer, ifthe associated covariates values are known.
-The data has each customer’s tenure when they churned (the event time T) and the customer’s Gender, MonthlyCharges, Dependants, Partner, 
-PhoneService etc. The other variables are the covariates here. It would be interesting to know how these covariates impacts the 
-survival probability function.
-In such cases, it is the conditional survival function S(t|x) = P(T > t|x). 
-x denotes the covariates. 
-Company interested in S(tenure > t|(Gender, MonthlyCharges, Dependants, Partner, PhoneService etc)).
+Cox model is fits the coefficients of the Hazard function using partial likelihood method. The advantage of Cox Proportional Hazards regression is that the survival models can be fitted without the distribution assumption.
+The time to event for a customer in the data-set is very important for the survival curves at the aggregate level; however, in real life situations along with the event data the covariates (features) of that individual will be present. Therefore, it is very important to know about the impact of covariates on the survival curve. This would help in predicting the survival probability of a customer, if the associated covariates values are known. The data has each customer's tenure when they churned (the event time T) and the customer's Gender, MonthlyCharges, Dependents, Partner, PhoneService etc. The other variables are the covariates here. It would be interesting to know how these covariates impacts the survival probability function. In such cases, it is the conditional survival function S(t|x) = P(T > t|x). x denotes the covariates. Company interested in S(tenure > t|(Gender, MonthlyCharges, Dependants, Partner, PhoneService etc)).
 
 A well calibrated model and important business inputs are presented here to help telecom company to take necessary business strategy to retain customers.
